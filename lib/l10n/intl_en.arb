@@ -1,0 +1,14 @@
+{ 
+    "AppBar": "Burger King",
+    "EmptyState": "Choose a category of dishes!",
+    "Error": "Unexpected error",
+    "PopularDishes": "Popular dishes",
+    "Combo": "Combo",
+    "Shrimp": "Shrimp",
+    "Hamburgers": "Hamburgers",
+    "Cheeseburgers": "Cheeseburgers",
+    "Drinks": "Drinks",
+    "Desserts": "Desserts",
+    "Rolls": "Rolls",
+    "OthersDishes": "Others dishes"
+}

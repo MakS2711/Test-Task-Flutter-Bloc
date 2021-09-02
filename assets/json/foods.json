@@ -1,0 +1,69 @@
+[
+  {
+    "id": 0,
+    "price": "199.99Р",
+    "name": "ЦЕЗАРЬ РОЛЛ СО СТРИПСАМИ",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/7a2adb0496a8f53b00624bad51c47b07.webp"
+  },
+  {
+    "id": 1,
+    "price": "99.99Р",
+    "name": "САНДЭЙ ДВОЙНАЯ КАРАМЕЛЬ",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/a250b126010f7167bbd802332689fafd.webp"
+  },
+  {
+    "id": 2,
+    "price": "159.99Р",
+    "name": "КАРАМЕЛЬНЫЙ ЛАТТЕ",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/8bf8da2bf34afc454253c435f12bd6f4.webp"
+  },
+  {
+    "id": 3,
+    "price": "129.99Р",
+    "name": "ПЕПСИ КОЛА 1Л",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/ab05d3ca62c92d9defcf5cfa96212d44.webp"
+  },
+  {
+    "id": 4,
+    "price": "144.99Р",
+    "name": "ЧИКЕН КИНГ",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/8ef47102331d33496fcd9fb3efcc2072.webp"
+  },
+  {
+    "id": 5,
+    "price": "239.99Р",
+    "name": "ГРИЛЬ ЧИКЕН БАРБЕКЮ",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/3970a159b7f8e9d05f89c9707666faad.webp"
+  },
+  {
+    "id": 6,
+    "price": "529.99Р",
+    "name": "ЧЕДДЕР КИНГ XL КИНГ КОМБО M",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/db67a90f3cc1ec9611c57c64b0e39865.webp"
+  },
+  {
+    "id": 7,
+    "price": "359.99Р",
+    "name": "ВОППЕР РОЛЛ КИНГ КОМБО M",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/e60337cda9b9df33d6699fdd7262003f.webp"
+  },
+  {
+    "id": 8,
+    "price": "489.99Р",
+    "name": "2 ВОППЕР КОМБО + КИНГ НАГГЕТС",
+    "image": "https://orderapp-static.burgerking.ru/x512/mobile_image/dc465925be589596f8677d32e3c01f36.png"
+  },
+  {
+    "id": 9,
+    "price": "359.99Р",
+    "name": "КИНГ НАГГЕТС БОЛ КИНГ КОМБО M",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/ae226c060b3892c9775f0832c1162341.webp"
+  },
+  {
+    "id": 10,
+    "price": "359.99Р",
+    "name": "ЛОНГ ЧИЗБУРГЕР КИНГ КОМБО M",
+    "image": "https://orderapp-staticgo.burgerking.ru/x512/mobile_image/591a6448e4f5ea5b499748ce18347176.webp"
+  }
+
+]
