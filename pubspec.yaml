@@ -43,9 +43,6 @@ dependencies:
   #library HTTP requests
   http: ^0.13.3
 
-  #Working with files
-  path_provider: ^2.0.2
-
   #Icon App
   flutter_launcher_icons: ^0.9.2
   
