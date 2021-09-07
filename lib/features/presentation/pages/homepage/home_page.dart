@@ -1,8 +1,8 @@
-import 'package:bk_flutter_bloc/features/data/services/foods_repository.dart';
+import 'package:bk_flutter_bloc/features/data/repository/foods_repository.dart';
 import 'package:bk_flutter_bloc/features/presentation/bloc/food_bloc.dart';
-import 'package:bk_flutter_bloc/features/presentation/widgets/body.dart';
+import 'package:bk_flutter_bloc/features/presentation/pages/homepage/widgets/body.dart';
 import 'package:bk_flutter_bloc/generated/l10n.dart';
-import 'package:bk_flutter_bloc/size_config.dart';
+import 'package:bk_flutter_bloc/features/presentation/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,11 +1,13 @@
-import 'package:bk_flutter_bloc/features/presentation/widgets/category.dart';
-import 'package:bk_flutter_bloc/features/presentation/widgets/foods_list.dart';
+import 'package:bk_flutter_bloc/features/presentation/pages/homepage/widgets/category.dart';
+import 'package:bk_flutter_bloc/features/presentation/pages/homepage/widgets/foods_list.dart';
 import 'package:flutter/material.dart';
 
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    
     Size size = MediaQuery.of(context).size;
+
     return Column(
       children: [
         Container(

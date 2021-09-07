@@ -19,4 +19,4 @@ class FoodsLoadedState extends FoodsState {
    List<Object?> get props => [loadedFoods];
 }
 
-class FoodsErroState extends FoodsState {}
+class FoodsErrorState extends FoodsState {}

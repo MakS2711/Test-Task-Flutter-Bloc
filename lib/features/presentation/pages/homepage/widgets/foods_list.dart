@@ -1,6 +1,6 @@
 import 'package:bk_flutter_bloc/features/presentation/bloc/food_bloc.dart';
 import 'package:bk_flutter_bloc/features/presentation/bloc/food_state.dart';
-import 'package:bk_flutter_bloc/features/presentation/widgets/foods_card_widget.dart';
+import 'package:bk_flutter_bloc/features/presentation/pages/homepage/widgets/foods_card_widget.dart';
 import 'package:bk_flutter_bloc/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -9,7 +9,8 @@ class FoodsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return BlocBuilder<FoodsBloc, FoodsState>(builder: (context, state) {
+    return BlocBuilder<FoodsBloc, FoodsState>(
+      builder: (context, state) {
       if (state is FoodsEmptyState) {
         return Center(
           child: Text(
@@ -25,14 +26,14 @@ class FoodsList extends StatelessWidget {
         return GridView.builder(
             itemCount: state.loadedFoods.length,
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              childAspectRatio: size.height*0.71/size.width*0.45,
+              childAspectRatio: size.height * 0.71 / size.width * 0.45,
               crossAxisCount: 2,
             ),
             itemBuilder: (context, index) =>
                 FoodsCard(index: index, state: state));
       }
 
-      if (state is FoodsErroState) {
+      if (state is FoodsErrorState) {
         return Center(
             child: Text(
           S.of(context).Error,

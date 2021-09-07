@@ -1,7 +1,7 @@
 import 'package:bk_flutter_bloc/features/presentation/bloc/food_bloc.dart';
 import 'package:bk_flutter_bloc/features/presentation/bloc/food_event.dart';
 import 'package:bk_flutter_bloc/generated/l10n.dart';
-import 'package:bk_flutter_bloc/size_config.dart';
+import 'package:bk_flutter_bloc/features/presentation/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -11,10 +11,14 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
+
   int selectedIndex = -1;
+
   @override
   Widget build(BuildContext context) {
+    
     final FoodsBloc foodsBloc = BlocProvider.of<FoodsBloc>(context);
+
     List<String> categories = [
       S.of(context).PopularDishes,
       S.of(context).Combo,
@@ -42,12 +46,21 @@ class _CategoriesState extends State<Categories> {
     return ListView.builder(
       scrollDirection: Axis.horizontal,
       itemCount: categories.length,
-      itemBuilder: (context, index) =>
-          buildCateroies(categories, index, foodsBloc, eventStr),
+      itemBuilder: (context, index) => buildCateroies(
+        categories,
+        index,
+        foodsBloc,
+        eventStr,
+      ),
     );
   }
 
-  Widget buildCateroies(List<String> categories, int index, FoodsBloc foodsBloc, List<dynamic> eventStr) {
+  Widget buildCateroies(
+    List<String> categories,
+    int index,
+    FoodsBloc foodsBloc,
+    List<dynamic> eventStr,
+  ) {
     return GestureDetector(
       onTap: () {
         setState(() {
